@@ -1,5 +1,5 @@
 # Exercice - 3
-## Deuxiem plugin  Wordpress
+## Troisiem plugin  Wordpress
 ### Contient plusieurs commits
 
 > Le plugin conient 2 fichiers et le readme file:

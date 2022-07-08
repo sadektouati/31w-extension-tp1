@@ -111,6 +111,10 @@
   right: 1rem;
 }
 
+.carrousel__droite:hover, .carrousel__gauche:hover {
+  background-color: orange;
+}
+
 figure > figure {
   cursor: pointer;
 }

@@ -79,19 +79,27 @@
   display: block;
 }
 
-.left, .right {
+.carrousel__droite, .carrousel__gauche {
   position: absolute;
   top: 50%;
   left: 1rem;
   transform: translate(0, -50%);
-  padding: 1rem;
   z-index: 1;
-  background-color: orange;
   border-radius: 50%;
   cursor: pointer;
+  font-family: arial;
+  font-weight: 900;
+  color: white;
+  background-color: #000000c2;
+  padding: 0;
+  height: 3rem;
+  width: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.right {
+.carrousel__gauche {
   left: initial;
   right: 1rem;
 }

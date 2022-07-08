@@ -21,6 +21,7 @@
     }
 
     .carrousel__fermeture{
+    border: none;
     z-index: 1;
     position: absolute;
     left: 0.5rem;
@@ -117,4 +118,5 @@
 
 figure > figure{
     cursor: pointer;
+    border-radius: 1rem;
 }

@@ -23,7 +23,7 @@
         ajouter_elmImg(img)
         ajouter_elmRadio()
         // écouteur sur la galerie pour ouvrir le carrousel
-        img.addEventListener('mousedown', function(){
+        img.addEventListener('click', function(){
             elmCarrousel.classList.add('carrousel__ouvrir') 
             index = this.dataset.index
             affiche_carrousel_img()
@@ -33,7 +33,7 @@
  * Écouteur pour fermer le carrousel
  * 
  */
-    elmCarrousel__fermeture.addEventListener('mousedown', function(){
+    elmCarrousel__fermeture.addEventListener('click', function(){
         elmCarrousel.classList.remove('carrousel__ouvrir') 
     })
 
@@ -65,7 +65,7 @@
         index = index+1
         elmCarrousel__radio.appendChild(elmRadio)
         /* Écouteur pour sélectionner une nouvelle image */ 
-        elmRadio.addEventListener('mousedown', function(){    
+        elmRadio.addEventListener('click', function(){    
             index = this.dataset.index
             affiche_carrousel_img()
         })

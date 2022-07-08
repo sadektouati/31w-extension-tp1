@@ -57,4 +57,15 @@
   margin: 10px;
   display: block;
 }
+
+.left, .right {
+  position: absolute;
+  top: 50%;
+  left: 1rem;
+  transform: translate(-50%, 0);
+  padding: 1rem;
+  z-index: 1;
+  background-color: orange;
+  border-radius: 50%;
+}
 /*# sourceMappingURL=style.css.map */

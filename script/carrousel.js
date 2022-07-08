@@ -101,6 +101,7 @@ function affiche_carrousel_img()
         elmCarrousel__figure.children[ancien_index].classList.remove('carrousel__figure__img--activer') 
     }
     elmCarrousel__figure.children[index].classList.add('carrousel__figure__img--activer')
+    elmCarrousel__radio.children[index].checked=true
     ancien_index = index
 }
 

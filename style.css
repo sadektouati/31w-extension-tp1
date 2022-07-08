@@ -99,7 +99,7 @@
   justify-content: center;
 }
 
-.carrousel__gauche {
+.carrousel__droite {
   left: initial;
   right: 1rem;
 }

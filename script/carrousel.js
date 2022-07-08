@@ -36,10 +36,14 @@
 
 
     elmCarrousel__droite.addEventListener('click', function(){    
-        index = this.dataset.index
-        affiche_carrousel_img()
-    })
+        prochainIndex = +index+1;
+        if(elmCarrousel__radio.children.length <= prochainIndex){
+         prochainIndex = 0
+        }
+        elmCarrousel__radio.children[prochainIndex].dispatchEvent(new Event('click'));
+     })
 
+ 
 
     /**
  * Écouteur pour fermer le carrousel

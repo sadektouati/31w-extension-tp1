@@ -9,6 +9,9 @@
   opacity: 0;
   transform: scale(0);
   transition: all 1s;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 0 3px 2px #9c9c9c4d;
 }
 
 @media screen and (min-width: 700px) {

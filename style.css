@@ -42,6 +42,10 @@
   cursor: pointer;
 }
 
+.carrousel .carrousel__fermeture:hover {
+  background-color: #740000;
+}
+
 .carrousel__ouvrir {
   opacity: 1;
   transform: scale(1);

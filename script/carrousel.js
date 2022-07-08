@@ -32,7 +32,16 @@
             affiche_carrousel_img()
     }) 
     }
-/**
+
+
+
+    elmCarrousel__droite.addEventListener('click', function(){    
+        index = this.dataset.index
+        affiche_carrousel_img()
+    })
+
+
+    /**
  * Écouteur pour fermer le carrousel
  * 
  */

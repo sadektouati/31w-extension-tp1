@@ -1,13 +1,15 @@
 # Exercice - 3
-## plugin de carrousel Wordpress
+## Deuxiem plugin  Wordpress
 ### Contient plusieurs commits
 
-Lien de la [github-page](https://sadektouati.github.io/31w-saddektouati/)
-
-> L'extension conient 3 fichiers et le readme file:
-carrousel.php
+> Le plugin conient 2 fichiers et le readme file:
 style.css
-carrousel.js
+carrousel.php
 readme.md
 
+> Le plugin contient deux dossier:
+sass
+script
 
+> Le dossier sass contient le fichier style.scss
+> Le dossier script contient le fichier carrousel.js

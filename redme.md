@@ -13,3 +13,4 @@ script
 
 > Le dossier sass contient le fichier style.scss
 > Le dossier script contient le fichier carrousel.js
+

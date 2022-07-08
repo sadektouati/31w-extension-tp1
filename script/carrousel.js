@@ -45,7 +45,6 @@
 
      elmCarrousel__gauche.addEventListener('click', function(){    
         prochainIndex = +index-1;
-        console.log(prochainIndex);
         if(prochainIndex< 0 ){
          prochainIndex = elmCarrousel__radio.children.length - 1
         }

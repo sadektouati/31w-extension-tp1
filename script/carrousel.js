@@ -79,9 +79,5 @@ function affiche_carrousel_img()
     elmCarrousel__figure.children[index].classList.add('carrousel__figure__img--activer')
     ancien_index = index
 }
-    
-  
-
-
 
 })()

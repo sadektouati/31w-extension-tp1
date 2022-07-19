@@ -8,6 +8,7 @@
   height: 100vh;
   top: 50%;
   left: 50%;
+  transform: translate(-50%, -50%);
   background-color: aqua;
   z-index: 9;
   opacity: 0;
@@ -53,7 +54,7 @@
 
 .carrousel__ouvrir {
   opacity: 1;
-  transform: scale(1);
+  transform: scale(1) translate(-50%, -50%);
 }
 
 .carrousel__figure {

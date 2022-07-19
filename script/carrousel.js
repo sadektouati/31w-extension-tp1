@@ -17,7 +17,6 @@
     let elmCarrousel__droite = document.querySelector('.carrousel__droite')
     let elmCarrousel__gauche = document.querySelector('.carrousel__gauche')
 
-    console.log(elmGalerieImg[0].getAttribute('src'))
     let index = 0 // L'index qui permettra d'indexer les images du carrousel et les radios bouton
     let ancien_index = -1
     let compteur =0
@@ -32,8 +31,7 @@
             affiche_carrousel_img()
     }) 
     }
-
-
+    
 
     elmCarrousel__droite.addEventListener('click', function(){    
         prochainIndex = +index+1;
